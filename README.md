@@ -10,3 +10,6 @@ is a permissive license that can be used with commercial and open source softwar
 
 For more information about BGFX, check out: https://github.com/bkaradzic/bgfx
 
+For more information about l33t labs, visit out web site at: http://www.l33tlabs.com
+
+(c) 2015 l33t labs LLC. All Rights Reserved.
