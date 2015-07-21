@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='twilight.bgfx.eclipse' version='0.0.1.201410080018' singleton='false'>
+    <update id='twilight.bgfx.eclipse' range='[0.0.0,0.0.1.201410080018)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Twilight BGFX Eclipse API'/>
+      <property name='org.eclipse.equinox.p2.provider' value='l33t labs LLC'/>
+      <property name='maven-groupId' value='l33tlabs.twilight'/>
+      <property name='maven-artifactId' value='twilight.bgfx.eclipse'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='8'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='twilight.bgfx.eclipse' version='0.0.1.201410080018'/>
+      <provided namespace='osgi.bundle' name='twilight.bgfx.eclipse' version='0.0.1.201410080018'/>
+      <provided namespace='java.package' name='l33tlabs.twilight.bgfx' version='0.0.0'/>
+      <provided namespace='java.package' name='l33tlabs.twilight.bgfx.test' version='0.0.0'/>
+      <provided namespace='java.package' name='l33tlabs.twilight.bgfx.util' version='0.0.0'/>
+      <provided namespace='java.package' name='l33tlabs.twilight.bgfx.window' version='0.0.0'/>
+      <provided namespace='java.package' name='l33tlabs.twilight.bgfx.window.events' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='4'>
+      <required namespace='osgi.bundle' name='l33tlabs.bling.math' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='l33tlabs.bling.log' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.commons.io' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='twilight.bgfx.eclipse' version='0.0.1.201410080018'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: twilight.bgfx.eclipse&#xA;Bundle-Version: 0.0.1.201410080018&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Require-Bundle: l33tlabs.bling.math,l33tlabs.bling.log,org.apache.log4
+ j,org.apache.commons.io
+Export-Package: l33tlabs.twilight.bgfx,l33tlabs.twilight.bgfx.test,l33
+ tlabs.twilight.bgfx.util,l33tlabs.twilight.bgfx.window,l33tlabs.twili
+ ght.bgfx.window.events
+Bundle-Vendor: l33t labs LLC
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/twilight.bgfx-0.0.1-SNAPSHOT.jar
+Bundle-Version: 0.0.1.201410080018
+Bundle-Name: Twilight BGFX Eclipse API
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: twilight.bgfx.eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

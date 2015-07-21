@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Twilight BGFX
+Bundle-SymbolicName: twilight.bgfx
+Bundle-Version: 15.4.0.qualifier
+Bundle-Vendor: l33t labs LLC
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Export-Package: 
+ twilight.bgfx,
+ twilight.bgfx.buffers,
+ twilight.bgfx.font,
+ twilight.bgfx.nanovg,
+ twilight.bgfx.util,
+ twilight.bgfx.window,
+ twilight.bgfx.window.events,
+ twilight.bgfx.window.sdl
+Bundle-NativeCode: native/linux-x64/libtwilight-bgfx.so

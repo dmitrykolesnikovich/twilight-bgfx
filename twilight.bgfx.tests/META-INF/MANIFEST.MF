@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: twilight.bgfx.tests
+Bundle-Version: 15.4.0.qualifier
+Export-Package: twilight.bgfx.tests
+Fragment-Host: twilight.bgfx
+Require-Bundle: l33tlabs.bling.log;bundle-version="1.0.0",
+ l33tlabs.bling.math;bundle-version="1.0.0"

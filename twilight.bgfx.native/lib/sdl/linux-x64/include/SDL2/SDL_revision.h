@@ -1,0 +1,2 @@
+#define SDL_REVISION "hg-9583:0bd764eb2b99"
+#define SDL_REVISION_NUMBER 9583

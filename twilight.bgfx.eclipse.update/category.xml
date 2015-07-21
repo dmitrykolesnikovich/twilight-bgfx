@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="twilight.bgfx" version="15.4.0.qualifier">
+      <category name="l33tlabs.twilight.bgfx"/>
+   </bundle>
+   <category-def name="l33tlabs.twilight.bgfx" label="Twilight BGFX"/>
+</site>
